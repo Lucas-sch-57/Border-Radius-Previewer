@@ -1,0 +1,58 @@
+.box {
+    width: 800px;
+    height: 500px;
+    background-color: rgb(78, 78, 78);
+    position: relative;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#border-top-right-radius {
+    position: absolute;
+    top: -5%;
+    right: -5%;
+}
+
+#border-top-left-radius {
+    position: absolute;
+    top: -5%;
+    left: -5%;
+}
+
+#border-bottom-left-radius {
+    position: absolute;
+    bottom: -5%;
+    left: -5%;
+}
+
+#border-bottom-right-radius {
+    position: absolute;
+    bottom: -5%;
+    right: -5%;
+}
+
+.input-border {
+    width: 50px;
+    background-color: black;
+    color: white;
+}
+
+#css {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    color: #fff;
+    background-color: black;
+    transform: translate(-50%, -50%);
+}
+
+#btn-copy {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-60%, -50%);
+}
